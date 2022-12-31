@@ -1,0 +1,18 @@
+{
+  "name": "@russian-ref/sex",
+  "version": "1.0.1",
+  "description": "Пол граждан Российской Федерации",
+  "main": "sex.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antivitla/russian-ref-sex.git"
+  },
+  "author": "Виталий Кулешин <antivitla@yandex.ru>",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
