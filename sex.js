@@ -1,12 +1,17 @@
+export const SexType = {
+  MALE: 'Мужчина',
+  FEMALE: 'Женщина'
+}
+
 export default {
-  'Мужчина': {
-    name: 'Мужчина',
+  [SexType.MALE]: {
+    name: SexType.MALE,
     latin: 'male',
-    regexp: /муж|дед/gi
+    regexp: /муж|дед|male|masc|пар|пац|чува|брат/gi
   },
-  'Женщина': {
-    name: 'Женщина',
+  [SexType.FEMALE]: {
+    name: SexType.FEMALE,
     latin: 'female',
-    regepx: /жен|баб/gi
+    regexp: /жен|баб|female|femin|тел|дев|див|чувих|сестр/gi
   }
 };
