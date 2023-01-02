@@ -9,6 +9,6 @@ export default function recognize (str) {
   } else if (normalize.match(sex[SexType.MALE].regexp)) {
     return 'Мужчина';
   } else {
-    console.warn('Непонятный пол, ставим Мужчину');
+    console.warn('Непонятный пол');
   }
 }
