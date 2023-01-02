@@ -1,6 +1,6 @@
 {
   "name": "@russian-ref/sex",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Пол граждан Российской Федерации",
   "main": "sex.js",
   "type": "module",
